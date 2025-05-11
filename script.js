@@ -153,24 +153,24 @@ console.log(NameBox.pop());
 console.log(NameBox);
 // the pop removes a value from the end
 
-console.log(NameBox.shift());
-console.log(NameBox)
-// the shift removes a value from the beginning
-
-console.log(NameBox.unshift("ife"));
+console.log(NameBox.unshift("drake"));
 console.log(NameBox);
 // the unshift adds a value to the beginning. 
 // you have to specify the value or item to be added into the list.
 
+console.log(NameBox.shift());
+console.log(NameBox)
+// the shift removes a value from the beginning
+
 console.log(NameBox.splice(2,0,'joseph'));
 console.log(NameBox);
-// the splice(2,0, 'joseph') adds a value of joseph between seun and david in the list, 
+// the splice(2,0, 'joseph') adds a value of joseph between seun(1st index) and david(2nd index) in the list, 
 // starting from the 2nd index but deleting nothing from the list.
 
 console.log(NameBox.splice(3,1,'isaac'));
 console.log(NameBox);
-// the splice(3,1,'isaac') adds a value of isaac between seun and david in the list, 
-// starting from the 2nd index but also deletes david from the list.
+// the splice(3,1,'isaac') adds a value of isaac between david(3rd index) and ayo(4th index) in the list, 
+// starting from the 3rd index(david) but also deletes one value from the list which is david, counting from the third index.
 
 console.log(NameBox.splice(3,2,));
 console.log(NameBox);
@@ -179,9 +179,15 @@ console.log(NameBox);
 
 console.log(NameBox.includes('seun'));
 console.log(NameBox.includes('david'));
-// the includes is a boolean checks if the value is in the array list.
+// the includes is a boolean which checks if the value is in the array list.
+// it works like a search command.
 // if the value is there, it returns true.
 // if the value isn't there, it returns false.
+
+console.log(NameBox);
+console.log(NameBox.slice(0,2));
+// the slice calls out the value from the list.
+// the slice of (0,2) means it starts from the index of 0 - "ife" , and stops before it gets to the index of 2 - "david".
 
 console.log(NameBox.join());
 console.log(NameBox.join('-'));
@@ -190,10 +196,6 @@ console.log(NameBox.join(' : '));
 // the join brings all the values together.
 // the values assigned to the join is placed between the values or items of the array to be joined.
 
-console.log(NameBox);
-console.log(NameBox.slice(0,2));
-// the slice calls out the value from the list.
-// the slice of (0,2) means it starts from the index of 0 - "ife" , and stops before it gets to the index of 2 - "david".
 
 
 
@@ -220,5 +222,9 @@ console.log(studentData);
 let scoreboard = [1,2,3,4,{name :'ife', age :'50'}];
 console.log(scoreboard);
 console.log(scoreboard[4].name);
+console.log(scoreboard[4]['name']);
 console.log(scoreboard[4]['age']);
+console.log(scoreboard[4].age);
 console.log(scoreboard);
+console.log (scoreboard[2]);
+console.log(scoreboard.length);
