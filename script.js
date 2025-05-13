@@ -197,6 +197,15 @@ console.log(NameBox.join(' : '));
 // the values assigned to the join is placed between the values or items of the array to be joined.
 
 
+let myName = "Michael John";
+console.log(myName);
+console.log(myName.replace("John","Moses"));
+// the replace is used to change a value from the list with another.
+
+console.log(myName.startsWith('John'));
+// returns false
+console.log(myName.endsWith('John'));
+// returns true
 
 
 // <-- Objects {}
@@ -228,3 +237,17 @@ console.log(scoreboard[4].age);
 console.log(scoreboard);
 console.log (scoreboard[2]);
 console.log(scoreboard.length);
+
+// Number Methods
+let num = 42.678;
+let strNun = "89.56";
+
+console.log(num);
+console.log(num.toString());
+console.log(num.toFixed());
+console.log(num.toFixed(2));
+console.log(num.toFixed(1));
+console.log(parseInt(strNun));
+console.log(parseFloat(strNun));
+console.log(isNaN('tretr'));
+console.log(isNaN('12345'));
