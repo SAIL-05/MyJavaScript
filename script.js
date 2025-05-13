@@ -138,6 +138,7 @@
 // }
 
 
+
 // <-- Arrays[]
 
 let NameBox = ["ife", "seun", "david", "ayo", "charles"];
@@ -197,6 +198,8 @@ console.log(NameBox.join(' : '));
 // the values assigned to the join is placed between the values or items of the array to be joined.
 
 
+
+
 let myName = "Michael John";
 console.log(myName);
 console.log(myName.replace("John","Moses"));
@@ -206,6 +209,8 @@ console.log(myName.startsWith('John'));
 // returns false
 console.log(myName.endsWith('John'));
 // returns true
+
+
 
 
 // <-- Objects {}
@@ -251,3 +256,41 @@ console.log(parseInt(strNun));
 console.log(parseFloat(strNun));
 console.log(isNaN('tretr'));
 console.log(isNaN('12345'));
+
+
+// Math mMethod
+console.log(Math.PI);
+console.log(Math.round(41.173));
+// the round approximates the figure to its nearest whole number.
+console.log(Math.floor(41.173));
+// the floor approximates the figure down to a whole number and returns 41.
+console.log(Math.ceil(41.1));
+// the ceil approximates the figure up to a whole number and returns 42.
+console.log(Math.max(12,6,7));
+// this returns 12
+console.log(Math.min(12,6,7));
+// this returns 6
+console.log(Math.pow(2,20));
+// this returns the value of 2 raised to the power of 20
+console.log(Math.sqrt(144));
+//  this returns the square-root of 144 which is 12
+
+console.log(Math.random());
+// returns random figures betweem 0 and 1
+
+
+// <-- FUNCTIONS
+
+function myDet(name) {
+    console.log(name);
+}
+myDet("Samuel");
+myDet("Esther");
+myDet("Hassan");
+
+
+function addnum(a,b){
+    console.log(a+b)
+}
+addnum( 30, 50);
+addnum( 300, 520);
