@@ -294,3 +294,67 @@ function addnum(a,b){
 }
 addnum( 30, 50);
 addnum( 300, 520);
+
+
+
+// self-check ***
+
+
+(function (){
+    console.log("welcome");
+})();
+
+
+
+// ------>
+
+(function (firstName){
+    console.log("welcome " + firstName);
+})("Lawrence");
+
+// ------>
+
+(function Names( FirstName , LastName){
+    console.log("welcome " + FirstName + LastName);
+})("David", "Joseph");
+
+
+(function (lastName , firstName){
+    console.log(`welcome, ${lastName} ${firstName}`);
+})("Samuel", "Lawrence");
+
+// ------>
+
+let test = (function(){
+    let greet = "hello"
+    console.log(greet);
+})();
+
+// ------>
+
+(function(){
+    let firstName = "Lawrence";
+    // return firstName;
+    console.log(firstName);
+})();
+
+// ------>
+
+let print = (function(){
+    let midname = "Isaac";
+    return midname;
+})();
+console.log(print + " - this is the value of midname returned to 'print'");
+
+// ------>
+
+let result = (function (){
+    let firstName = "Lawrence";
+    return firstName;
+})();
+console.log(result + " - this is the value of firstName returned to 'result'");
+
+// ------>
+
+let test2 = (num) => num + 5;
+console.log(test2(14));
