@@ -348,10 +348,12 @@ let CheckEvenNumber = () => {
     let userNumber = prompt('Enter any number');
     if ((userNumber % 2) === 0){
         console.log(`${userNumber} is an Even number`);
+    } else if(isNaN(userNumber)) {
+        console.log(`invalid input`);
     } else {
         console.log(`${userNumber} is an odd number`);
     }
-}
+};
 CheckEvenNumber()
 
 
