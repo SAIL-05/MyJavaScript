@@ -141,220 +141,287 @@
 
 // <-- Arrays[]
 
-let NameBox = ["ife", "seun", "david", "ayo", "charles"];
+// let NameBox = ["ife", "seun", "david", "ayo", "charles"];
 
-console.log (NameBox)
-console.log (NameBox.length)
+// console.log (NameBox)
+// console.log (NameBox.length)
 
-console.log(NameBox.push('zion'));
-console.log(NameBox); 
-// the push adds a value to the end.
+// console.log(NameBox.push('zion'));
+// console.log(NameBox); 
+// // the push adds a value to the end.
 
-console.log(NameBox.pop());
-console.log(NameBox);
-// the pop removes a value from the end
+// console.log(NameBox.pop());
+// console.log(NameBox);
+// // the pop removes a value from the end
 
-console.log(NameBox.unshift("drake"));
-console.log(NameBox);
-// the unshift adds a value to the beginning. 
-// you have to specify the value or item to be added into the list.
+// console.log(NameBox.unshift("drake"));
+// console.log(NameBox);
+// // the unshift adds a value to the beginning. 
+// // you have to specify the value or item to be added into the list.
 
-console.log(NameBox.shift());
-console.log(NameBox)
-// the shift removes a value from the beginning
+// console.log(NameBox.shift());
+// console.log(NameBox)
+// // the shift removes a value from the beginning
 
-console.log(NameBox.splice(2,0,'joseph'));
-console.log(NameBox);
-// the splice(2,0, 'joseph') adds a value of joseph between seun(1st index) and david(2nd index) in the list, 
-// starting from the 2nd index but deleting nothing from the list.
+// console.log(NameBox.splice(2,0,'joseph'));
+// console.log(NameBox);
+// // the splice(2,0, 'joseph') adds a value of joseph between seun(1st index) and david(2nd index) in the list, 
+// // starting from the 2nd index but deleting nothing from the list.
 
-console.log(NameBox.splice(3,1,'isaac'));
-console.log(NameBox);
-// the splice(3,1,'isaac') adds a value of isaac between david(3rd index) and ayo(4th index) in the list, 
-// starting from the 3rd index(david) but also deletes one value from the list which is david, counting from the third index.
+// console.log(NameBox.splice(3,1,'isaac'));
+// console.log(NameBox);
+// // the splice(3,1,'isaac') adds a value of isaac between david(3rd index) and ayo(4th index) in the list, 
+// // starting from the 3rd index(david) but also deletes one value from the list which is david, counting from the third index.
 
-console.log(NameBox.splice(3,2,));
-console.log(NameBox);
-// the splice(3,2) removes two values from the center, but adds no item or value to the list. 
-// starting from the third index and counting out two items from the third index.
+// console.log(NameBox.splice(3,2,));
+// console.log(NameBox);
+// // the splice(3,2) removes two values from the center, but adds no item or value to the list. 
+// // starting from the third index and counting out two items from the third index.
 
-console.log(NameBox.includes('seun'));
-console.log(NameBox.includes('david'));
-// the includes is a boolean which checks if the value is in the array list.
-// it works like a search command.
-// if the value is there, it returns true.
-// if the value isn't there, it returns false.
+// console.log(NameBox.includes('seun'));
+// console.log(NameBox.includes('david'));
+// // the includes is a boolean which checks if the value is in the array list.
+// // it works like a search command.
+// // if the value is there, it returns true.
+// // if the value isn't there, it returns false.
 
-console.log(NameBox);
-console.log(NameBox.slice(0,2));
-// the slice calls out the value from the list.
-// the slice of (0,2) means it starts from the index of 0 - "ife" , and stops before it gets to the index of 2 - "david".
+// console.log(NameBox);
+// console.log(NameBox.slice(0,2));
+// // the slice calls out the value from the list.
+// // the slice of (0,2) means it starts from the index of 0 - "ife" , and stops before it gets to the index of 2 - "david".
 
-console.log(NameBox.join());
-console.log(NameBox.join('-'));
-console.log(NameBox.join(' / '));
-console.log(NameBox.join(' : '));
-// the join brings all the values together.
-// the values assigned to the join is placed between the values or items of the array to be joined.
-
-
-
-
-let myName = "Michael John";
-console.log(myName);
-console.log(myName.replace("John","Moses"));
-// the replace is used to change a value from the list with another.
-
-console.log(myName.startsWith('John'));
-// returns false
-console.log(myName.endsWith('John'));
-// returns true
+// console.log(NameBox.join());
+// console.log(NameBox.join('-'));
+// console.log(NameBox.join(' / '));
+// console.log(NameBox.join(' : '));
+// // the join brings all the values together.
+// // the values assigned to the join is placed between the values or items of the array to be joined.
 
 
 
 
-// <-- Objects {}
-let studentData = {name : 'ife' , score : '100'};
+// let myName = "Michael John";
+// console.log(myName);
+// console.log(myName.replace("John","Moses"));
+// // the replace is used to change a value from the list with another.
 
-console.log(studentData['score']);
-console.log(studentData.score);
-
-console.log(studentData['name']);
-console.log(studentData.name);
-
-console.log (studentData.name = 'Ope');
-// this changes the value for student data name to Ope from ife.
-
-console.log(studentData.score = '150');
-// this changes the value for score to 150 from 100.
-
-console.log(studentData);
-// student data now carries the new values.
+// console.log(myName.startsWith('John'));
+// // returns false
+// console.log(myName.endsWith('John'));
+// // returns true
 
 
-// <-- Objects inside an Array [{}]
-let scoreboard = [1,2,3,4,{name :'ife', age :'50'}];
-console.log(scoreboard);
-console.log(scoreboard[4].name);
-console.log(scoreboard[4]['name']);
-console.log(scoreboard[4]['age']);
-console.log(scoreboard[4].age);
-console.log(scoreboard);
-console.log (scoreboard[2]);
-console.log(scoreboard.length);
-
-// Number Methods
-let num = 42.678;
-let strNun = "89.56";
-
-console.log(num);
-console.log(num.toString());
-console.log(num.toFixed());
-console.log(num.toFixed(2));
-console.log(num.toFixed(1));
-console.log(parseInt(strNun));
-console.log(parseFloat(strNun));
-console.log(isNaN('tretr'));
-console.log(isNaN('12345'));
 
 
-// Math mMethod
-console.log(Math.PI);
-console.log(Math.round(41.173));
-// the round approximates the figure to its nearest whole number.
-console.log(Math.floor(41.173));
-// the floor approximates the figure down to a whole number and returns 41.
-console.log(Math.ceil(41.1));
-// the ceil approximates the figure up to a whole number and returns 42.
-console.log(Math.max(12,6,7));
-// this returns 12
-console.log(Math.min(12,6,7));
-// this returns 6
-console.log(Math.pow(2,20));
-// this returns the value of 2 raised to the power of 20
-console.log(Math.sqrt(144));
-//  this returns the square-root of 144 which is 12
+// // <-- Objects {}
+// let studentData = {name : 'ife' , score : '100'};
 
-console.log(Math.random());
-// returns random figures betweem 0 and 1
+// console.log(studentData['score']);
+// console.log(studentData.score);
+
+// console.log(studentData['name']);
+// console.log(studentData.name);
+
+// console.log (studentData.name = 'Ope');
+// // this changes the value for student data name to Ope from ife.
+
+// console.log(studentData.score = '150');
+// // this changes the value for score to 150 from 100.
+
+// console.log(studentData);
+// // student data now carries the new values.
+
+
+// // <-- Objects inside an Array [{}]
+// let scoreboard = [1,2,3,4,{name :'ife', age :'50'}];
+// console.log(scoreboard);
+// console.log(scoreboard[4].name);
+// console.log(scoreboard[4]['name']);
+// console.log(scoreboard[4]['age']);
+// console.log(scoreboard[4].age);
+// console.log(scoreboard);
+// console.log (scoreboard[2]);
+// console.log(scoreboard.length);
+
+// // Number Methods
+// let num = 42.678;
+// let strNun = "89.56";
+
+// console.log(num);
+// console.log(num.toString());
+// console.log(num.toFixed());
+// console.log(num.toFixed(2));
+// console.log(num.toFixed(1));
+// console.log(parseInt(strNun));
+// console.log(parseFloat(strNun));
+// console.log(isNaN('tretr'));
+// console.log(isNaN('12345'));
+
+
+// // Math mMethod
+// console.log(Math.PI);
+// console.log(Math.round(41.173));
+// // the round approximates the figure to its nearest whole number.
+// console.log(Math.floor(41.173));
+// // the floor approximates the figure down to a whole number and returns 41.
+// console.log(Math.ceil(41.1));
+// // the ceil approximates the figure up to a whole number and returns 42.
+// console.log(Math.max(12,6,7));
+// // this returns 12
+// console.log(Math.min(12,6,7));
+// // this returns 6
+// console.log(Math.pow(2,20));
+// // this returns the value of 2 raised to the power of 20
+// console.log(Math.sqrt(144));
+// //  this returns the square-root of 144 which is 12
+
+// console.log(Math.random());
+// // returns random figures betweem 0 and 1
 
 
 // <-- FUNCTIONS
 
-function myDet(name) {
-    console.log(name);
+// function myDet(name) {
+//     console.log(name);
+// }
+// myDet("Samuel");
+// myDet("Esther");
+
+
+// function SumOftwoNumbers(num1 , num2) {
+//     let result = num1 + num2;
+//     console.log(result);
+// } 
+// SumOftwoNumbers(30 , 40);
+
+
+// let SumOfThreeNumbers = function(num1 , num2 , num3) {
+//     let result = num1 + num2 + num3;
+//     console.log(result);
+// } 
+// SumOfThreeNumbers (30 , 40 , 25)
+
+
+// function TakeUserNumber() {
+//     let number = prompt('Enter your number');
+//     if(number > 6){
+//         console.log(`Number you inputed is ${number} and it is greater than 6`);
+//     } else if(number == 6) {
+//         console.log(`Number you inputed is ${number}`);
+//     } else {
+//         console.log(`Number you inputed is ${number} and is lesser than 6`);
+//     }
+// } TakeUserNumber();
+   
+// <----- Declaration FUNCTIONS
+
+// function UserName(){
+//     let nAme = prompt("Enter Your Name");
+//     let check = (nAme.length);
+//     console.log(`your name is ${check} characters long`);
+// } UserName();
+
+// <----- Expression FUNCTIONS
+// let UserName = function(){
+//     let nAme = prompt("Enter Your Name");
+//     let check = (nAme.length);
+//     console.log(`your name is ${check} characters long`);
+// }; UserName();
+
+// function maximum(){
+//     let num1 = parseInt(promt("enter first number"));
+//     let num2 = parseInt(promt("enter second number"));
+//     let num3 = parseInt(promt("enter third number"));
+//     let num4 = parseInt(promt("enter fourth number"));
+//     let combine = (Math.max(num1, num2, num3, num4));
+//     console.log(combine);
+// } ; maximum();
+
+
+
+// function maximum( num1,  num2, num3, num4){
+//     console.log(Math.max(num1, num2, num3, num4));
+// } ; maximum(20, 30, 4,15);
+
+
+// function subTwoNumbers (num1 , num2){
+//     let result = num1 - num2;
+//     console.log(result);
+// } subTwoNumbers(40 , 25);
+
+// <----- ARROW FUNCTIONS
+
+// const greetMe = () => {
+// }; greetMe();
+
+let CheckEvenNumber = () => {
+    let userNumber = prompt('Enter any number');
+    if ((userNumber % 2) === 0){
+        console.log(`${userNumber} is an Even number`);
+    } else {
+        console.log(`${userNumber} is an odd number`);
+    }
 }
-myDet("Samuel");
-myDet("Esther");
-myDet("Hassan");
-
-
-function addnum(a,b){
-    console.log(a+b)
-}
-addnum( 30, 50);
-addnum( 300, 520);
+CheckEvenNumber()
 
 
 
-// self-check ***
+// // self-check ***
 
 
-(function (){
-    console.log("welcome");
-})();
+// (function (){
+//     console.log("welcome");
+// })();
+
+// // ------>
+
+// (function (firstName){
+//     console.log("welcome " + firstName);
+// })("Lawrence");
+
+// // ------>
+
+// (function Names( FirstName , LastName){
+//     console.log("welcome " + FirstName + LastName);
+// })("David", "Joseph");
 
 
+// (function (lastName , firstName){
+//     console.log(`welcome, ${lastName} ${firstName}`);
+// })("Samuel", "Lawrence");
 
-// ------>
+// // ------>
 
-(function (firstName){
-    console.log("welcome " + firstName);
-})("Lawrence");
+// let test = (function(){
+//     let greet = "hello"
+//     console.log(greet);
+// })();
 
-// ------>
+// // ------>
 
-(function Names( FirstName , LastName){
-    console.log("welcome " + FirstName + LastName);
-})("David", "Joseph");
+// (function(){
+//     let firstName = "Lawrence";
+//     // return firstName;
+//     console.log(firstName);
+// })();
 
+// // ------>
 
-(function (lastName , firstName){
-    console.log(`welcome, ${lastName} ${firstName}`);
-})("Samuel", "Lawrence");
+// let print = (function(){
+//     let midname = "Isaac";
+//     return midname;
+// })();
+// console.log(print + " - this is the value of midname returned to 'print'");
 
-// ------>
+// // ------>
 
-let test = (function(){
-    let greet = "hello"
-    console.log(greet);
-})();
+// let result = (function (){
+//     let firstName = "Lawrence";
+//     return firstName;
+// })();
+// console.log(result + " - this is the value of firstName returned to 'result'");
 
-// ------>
+// // ------>
 
-(function(){
-    let firstName = "Lawrence";
-    // return firstName;
-    console.log(firstName);
-})();
-
-// ------>
-
-let print = (function(){
-    let midname = "Isaac";
-    return midname;
-})();
-console.log(print + " - this is the value of midname returned to 'print'");
-
-// ------>
-
-let result = (function (){
-    let firstName = "Lawrence";
-    return firstName;
-})();
-console.log(result + " - this is the value of firstName returned to 'result'");
-
-// ------>
-
-let test2 = (num) => num + 5;
-console.log(test2(14));
+// let test2 = (num) => num + 5;
+// console.log(test2(14));
