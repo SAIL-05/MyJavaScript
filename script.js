@@ -328,16 +328,6 @@
 //     console.log(`your name is ${check} characters long`);
 // }; UserName();
 
-// function maximum(){
-//     let num1 = parseInt(promt("enter first number"));
-//     let num2 = parseInt(promt("enter second number"));
-//     let num3 = parseInt(promt("enter third number"));
-//     let num4 = parseInt(promt("enter fourth number"));
-//     let combine = (Math.max(num1, num2, num3, num4));
-//     console.log(combine);
-// } ; maximum();
-
-
 
 // function maximum( num1,  num2, num3, num4){
 //     console.log(Math.max(num1, num2, num3, num4));
@@ -363,6 +353,29 @@ let CheckEvenNumber = () => {
     }
 }
 CheckEvenNumber()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
