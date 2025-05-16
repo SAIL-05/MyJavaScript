@@ -331,7 +331,17 @@
 
 // function maximum( num1,  num2, num3, num4){
 //     console.log(Math.max(num1, num2, num3, num4));
-// } ; maximum(20, 30, 4,15);
+// } ; maximum(20, 30, 76,15);
+
+
+function maximum(){
+    let numOne = prompt("Enter first number");
+    let numTwo = prompt("Enter second number");
+    let numThree = prompt("Enter third number");
+    let numFour = prompt("Enter fourth number");
+    console.log(`You inputed ${numOne},${numTwo},${numThree},${numFour}`)
+    console.log('Your maximum input is '+ Math.max(numOne , numTwo , numThree , numFour));
+}; maximum();
 
 
 // function subTwoNumbers (num1 , num2){
@@ -344,17 +354,18 @@
 // const greetMe = () => {
 // }; greetMe();
 
-let CheckEvenNumber = () => {
-    let userNumber = prompt('Enter any number');
-    if ((userNumber % 2) === 0){
-        console.log(`${userNumber} is an Even number`);
-    } else if(isNaN(userNumber)) {
-        console.log(`invalid input`);
-    } else {
-        console.log(`${userNumber} is an odd number`);
-    }
-};
-CheckEvenNumber()
+
+// let CheckEvenNumber = () => {
+//     let userNumber = prompt('Enter any number');
+//     if ((userNumber % 2) === 0){
+//         console.log(`${userNumber} is an Even number`);
+//     } else if(isNaN(userNumber)) {
+//         console.log(`invalid input`);
+//     } else {
+//         console.log(`${userNumber} is an odd number`);
+//     }
+// };
+// CheckEvenNumber()
 
 
 
