@@ -334,14 +334,14 @@
 // } ; maximum(20, 30, 76,15);
 
 
-function maximum(){
-    let numOne = prompt("Enter first number");
-    let numTwo = prompt("Enter second number");
-    let numThree = prompt("Enter third number");
-    let numFour = prompt("Enter fourth number");
-    console.log(`You inputed ${numOne},${numTwo},${numThree},${numFour}`)
-    console.log('Your maximum input is '+ Math.max(numOne , numTwo , numThree , numFour));
-}; maximum();
+// function maximum(){
+//     let numOne = prompt("Enter first number");
+//     let numTwo = prompt("Enter second number");
+//     let numThree = prompt("Enter third number");
+//     let numFour = prompt("Enter fourth number");
+//     console.log(`You inputed ${numOne},${numTwo},${numThree},${numFour}`)
+//     console.log('Your maximum input is '+ Math.max(numOne , numTwo , numThree , numFour));
+// }; maximum();
 
 
 // function subTwoNumbers (num1 , num2){
@@ -369,8 +369,69 @@ function maximum(){
 
 
 
+// let Divide = () => {
+//     let numOne = prompt('Enter first number');
+//     let numTwo = prompt('Enter second number');
+//     let total = numOne / numTwo
+//     console.log(total);
+// };
+// Divide();
 
 
+// let Divide = () => {
+//     let numOne = prompt('Enter first number');
+//     let numTwo = prompt('Enter second number');
+//     if (numOne > numTwo){
+//         console.log(numOne / numTwo);
+//     } else if (numTwo > numOne){
+//         console.log(numTwo / numOne);
+//     }
+// }; Divide();
+
+
+// let CheckEvenNumber = () => {
+//     let userNumber = prompt('Enter any number');
+//     if ((userNumber % 2) === 0){
+//         console.log(`${userNumber} is an Even number`);
+//     } else if(isNaN(userNumber)) {
+//         console.log(`invalid input`);
+//     } else {
+//         console.log(`${userNumber} is an odd number`);
+//     }
+// };
+// CheckEvenNumber()
+
+
+
+// let CheckHighestNumber = (numOne,numTwo,numThree,numFour) => {
+//     numOne = prompt('Enter first number');
+//     numTwo = prompt('Enter first number');
+//     numThree = prompt('Enter first number');
+//     numFour = prompt('Enter first number');
+//     console.log(`You inputed ${numOne},${numTwo},${numThree},${numFour}`);
+//     console.log('Your maximum input is '+ Math.max(numOne , numTwo , numThree , numFour));
+// };
+// CheckHighestNumber();
+
+
+// let Rvrse = () => {
+//     let usEr = prompt('Enter your name to be reversed');
+//     console.log(usEr.split("").reverse("").join(""));
+// }; Rvrse();
+
+
+
+let LongestWord = () => {
+    let Sentence = "My name is Michael John";
+    let SplitSentence = (Sentence.split(" "));
+    console.log(SplitSentence);
+
+    let word = (SplitSentence.length);
+    console.log(word);
+
+
+
+}; LongestWord();
 
 
 
