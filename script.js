@@ -423,11 +423,10 @@
 
 let LongestWord = () => {
     let Sentence = "My name is Michael John";
-    let SplitSentence = (Sentence.split(" "));
-    console.log(SplitSentence);
+    let EachWord = (Sentence.split(" "));
+    console.log(EachWord);
+    // console.log(Math.max(EachWord.split(" ")[0].length, EachWord.split(" ")[1].length, EachWord.split(" ")[2].length, EachWord.split(" ")[3].length, EachWord.split(" ")[4].length));
 
-    let word = (SplitSentence.length);
-    console.log(word);
 
 
 
