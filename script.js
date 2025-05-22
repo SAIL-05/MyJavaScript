@@ -421,16 +421,13 @@
 
 
 
-let LongestWord = () => {
-    let Sentence = "My name is Michael John";
-    let EachWord = (Sentence.split(" "));
-    console.log(EachWord);
-    // console.log(Math.max(EachWord.split(" ")[0].length, EachWord.split(" ")[1].length, EachWord.split(" ")[2].length, EachWord.split(" ")[3].length, EachWord.split(" ")[4].length));
+// let LongestWord = () => {
+//     let Sentence = "My name is Michael John";
+//     let EachWord = (Sentence.split(" "));
+//     console.log(EachWord);
 
-
-
-
-}; LongestWord();
+//     console.log(Math.max(EachWord.split(" ")[0].length , EachWord.split(" ")[1].length));
+// }; LongestWord();
 
 
 
@@ -441,6 +438,61 @@ let LongestWord = () => {
 
 
 
+// <--- LOOPS ---->
+
+// *** the FOR loops
+// every loop has three parts: initializer , conditioner , increment/decrement
+
+// function greetMe(){
+
+// };
+// greetMe();
+// for(initializer , conditioner , increment/decrement){
+
+// };
+
+
+// function greetMe(){
+
+// };
+// greetMe();
+// for( let i = 0; i < 15; i++){
+// console.log(`this is the value of i`, i);
+// };
+// console.log(`we are running loops`);
+// // this will continue to run from zero till it gets to 14, 
+
+
+// for(let startIndex = 1; startIndex < 20 ; startIndex++){
+//     if(startIndex % 2 === 0){
+//         console.log(startIndex, ` is an even number`);
+//     } else{
+//         console.log(startIndex, ` is an odd number`);
+//     }
+// }
+
+// for(let startIndex = 1; startIndex < 50 ; startIndex +=3){
+//     if(startIndex % 2 === 0){
+//         console.log(startIndex, ` is an even number`);
+//     } else{
+//         console.log(startIndex, ` is an odd number`);
+//     }
+// }
+
+
+// for( let val = 5; val <= 20; val +=1.5 ){
+//     console.log(`this is the value of val`, val);
+// }
+
+// let Score = [10, 18, 30, 42, 50, 60, 70, 75, 80, 90];
+//     for(let i = 0; i < 10; i++){
+//         console.log(`scores index of` ,i ,'is', Score[i]);
+//     };
+
+
+for(let i = 1; i <= 50; i+=5){
+    console.log(i);
+}
 
 
 
